@@ -30,8 +30,7 @@ class Devenv < Formula
   end
 
   def install
-    platform_dir = Pathname.new(Dir["devenv-*"].first)
-    bin.install platform_dir + "bin/devenv"
+    bin.install "bin/devenv"
   end
 
   test do
