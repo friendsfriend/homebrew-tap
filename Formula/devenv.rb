@@ -5,27 +5,27 @@ class Devenv < Formula
   desc "Development environment manager — hybrid Go backend + TypeScript OpenTUI"
   homepage "https://github.com/friendsfriend/devenv"
   license "Proprietary"
-  version "0.11.0"
+  version "0.11.1"
 
   on_macos do
     on_arm do
       url "https://github.com/friendsfriend/devenv/releases/download/v#{version}/devenv-darwin-arm64.tar.gz"
-      sha256 "f660d03a6a47389412eaf3a0fc2e9cc5370c809d7f072835f4107de394a5b678"
+      sha256 "46628ce2f11c7fd7c907efd97f64d6a6a0b4e68305d828a95917d20b9fb3714c"
     end
     on_intel do
       url "https://github.com/friendsfriend/devenv/releases/download/v#{version}/devenv-darwin-x64.tar.gz"
-      sha256 "72c08994559683cdcacee2a6c473a4153736341facc8e2b326895c33a6dbb8d3"
+      sha256 "56209814b74ad79621ba4138fb14e16dadde6559c1036bf610f50c4d5b2dd6e5"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/friendsfriend/devenv/releases/download/v#{version}/devenv-linux-arm64.tar.gz"
-      sha256 "a17b52604ad69d7899789883cc53bcc317c4b51c9b1c4db4ef41366ed3360ab3"
+      sha256 "ee67d856d8c915aec08a9afc28404d8767466101605e1fbb1de11818b4b6e02a"
     end
     on_intel do
       url "https://github.com/friendsfriend/devenv/releases/download/v#{version}/devenv-linux-x64.tar.gz"
-      sha256 "aae77f98ce6c1505f5cf2024ecb458691216023c2fb99beaa3a8e8816ea53165"
+      sha256 "32038246b3e1ac03cac9ff2f4e1152b8609b0a4cffbbda9b3ecd90c1b4fc599a"
     end
   end
 
